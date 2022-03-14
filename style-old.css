@@ -1,0 +1,153 @@
+*{
+    font-size: 30px;
+}
+
+h1{
+    color: blue;
+}
+
+h2{
+    color: red;
+}
+
+#titulo{
+    color: chocolate;
+    font-size:30px;
+    border-width: 2em;
+    border-style: solid;
+}
+
+.cabecera{
+    color: blue;
+    font-size:10px;
+    border-style: solid;
+    border-width: 0.5em;
+}
+
+
+h2.especial{
+    color: chartreuse;
+}
+
+h2.cabecera{
+    color: green;
+}
+
+
+div p, h2{
+    color: #f0f;
+}
+
+
+
+
+.border{
+    /* border: 7px red ridge; */
+    border-style: solid;
+    border-color: red;
+    border-radius: 50px;
+    border-width: 6px;
+}
+
+#fondo{
+    height: 500px;
+    color:rgb(0,0,0);
+    background-color: rgba(0,0,0,1);
+    background-image: url(img/coffee.png);
+    background-repeat: repeat-y;
+    background-size: 300px;
+    background-position: center bottom;
+}
+
+.margen{
+    background-color: red;
+    margin: 10px;
+    padding: 20px 25px 30px;
+    border: solid 3px black;
+    height:100px;
+    width:5px;
+    overflow: scroll;
+    outline: solid 3px chocolate;
+}
+
+.texto{
+    text-align: justify;
+    text-decoration: overline;
+    text-shadow: 3px 5px 4px brown;
+    font-family: 'Noto Sans Japanese','sans-serif'
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: chocolate;
+}
+
+a:active{
+    color: blue;
+}
+
+ul{
+    background-color: red;
+    list-style-type: square;
+    /* padding-left: 0; */
+}
+
+.elemento{
+    color:gray
+}
+
+table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+
+
+
+
+th,td{
+    border: solid 2px red;
+    padding: 5px;
+    /* background-color: green; */
+}
+
+th{
+    background-color: brown;
+}
+
+tr:hover{
+    background-color:yellowgreen;
+    cursor: pointer;
+}
+
+tr:nth-child(odd){
+    background-color: aqua;
+}
+
+.inline{
+    /* display: inline; */
+    /* display: none; */
+    /* visibility: hidden; */
+    border:solid 1px chocolate;
+}
+
+.block{
+    display: block;
+    background-color: aqua;
+    max-width: 300px;
+    position: relative;
+    left: 15px;
+    top:50px;
+}
+
+.header{
+    position: relative;
+    top:15px;
+}
